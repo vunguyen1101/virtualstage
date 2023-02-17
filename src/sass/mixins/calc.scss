@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 //calc
 @mixin calc( $property, $expression ) {
     #{$property}: -webkit-calc( #{$expression} );
     #{$property}: -moz-calc( #{$expression} );
     #{$property}: calc( #{$expression} );
+=======
+//calc
+@mixin calc( $property, $expression ) {
+    #{$property}: -webkit-calc( #{$expression} );
+    #{$property}: -moz-calc( #{$expression} );
+    #{$property}: calc( #{$expression} );
+>>>>>>> 386eaa2a57a9c72af4b0b337b2358f696523109a
 }

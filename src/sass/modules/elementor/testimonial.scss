@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .elementor-widget-boostify-tour-testimonial {
 	.testimonial-item--wrapper {
 		.content {
@@ -47,4 +48,55 @@
 }
 .vutest {
 	color:red;
+=======
+.elementor-widget-boostify-tour-testimonial {
+	.testimonial-item--wrapper {
+		.content {
+			font-weight: normal;
+			font-family: $font__heading;
+			font-size: 24px;
+			line-height: 2;
+
+		}
+
+		.name {
+			font-family: 'Poppins SemiBold';
+			display: block;
+			text-align: center;
+			margin-top: 42px;
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+	}
+
+	.widget-testimonial--wrapper {
+		&.swiper-container-horizontal > .swiper-pagination-bullets {
+			position: static;
+			@include flex();
+
+			.swiper-pagination-bullet {
+				margin: 0 4px;
+				opacity: 1;
+
+				&.swiper-pagination-bullet-active {
+					width: 10px;
+					height: 10px;
+				}
+			}
+		}
+
+		.swiper-pagination-bullets {
+			margin-top: 55px;
+		}
+	}
+}
+
+.widget-testimonial--wrapper {
+	max-width: 720px;
+	margin: 0 auto;
+	text-align: center;
+}
+.vutest {
+	color:red;
+>>>>>>> 386eaa2a57a9c72af4b0b337b2358f696523109a
   }

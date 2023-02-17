@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 /* filter */
 @mixin filter($filter-type,$filter-amount) { 
   -webkit-filter: $filter-type+unquote('(#{$filter-amount})');
   filter: $filter-type+unquote('(#{$filter-amount})');
+=======
+/* filter */
+@mixin filter($filter-type,$filter-amount) { 
+  -webkit-filter: $filter-type+unquote('(#{$filter-amount})');
+  filter: $filter-type+unquote('(#{$filter-amount})');
+>>>>>>> 386eaa2a57a9c72af4b0b337b2358f696523109a
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Theme Name: travelcations
 
@@ -15,3 +16,22 @@ body {
 	unicode-bidi: embed;
 }
 */
+=======
+/*
+Theme Name: travelcations
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/*
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/
+>>>>>>> 386eaa2a57a9c72af4b0b337b2358f696523109a

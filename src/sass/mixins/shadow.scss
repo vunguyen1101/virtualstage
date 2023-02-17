@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // box-shadow
 @mixin shadow($shadow){
     -webkit-box-shadow: $shadow;
@@ -11,4 +12,19 @@
 
     -webkit-box-shadow: $output;
     box-shadow: $output;
+=======
+// box-shadow
+@mixin shadow($shadow){
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+@mixin shadows($data...) {
+    $output: ();
+    @each $key in $data {
+        $output: append($output, $key, comma);
+    }
+
+    -webkit-box-shadow: $output;
+    box-shadow: $output;
+>>>>>>> 386eaa2a57a9c72af4b0b337b2358f696523109a
 }
