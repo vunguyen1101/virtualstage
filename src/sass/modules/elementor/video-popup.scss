@@ -1,0 +1,29 @@
+.widget-video-popup--wrapper {
+	.video-popup-box {
+		@include flex( 'inline-flex', 'flex-start' );
+		.icon-video-popup {
+			width: 60px;
+			height: 60px;
+			@include flex();
+			background-color: $color__background-button;
+			border-radius: 50%;
+			color:#fff;
+			font-size: 21px;
+			margin-right: 20px;
+
+			&:before {
+				margin-left: 5px;
+			}
+		}
+
+		.label {
+			font-family: "Poppins SemiBold";
+			text-transform: uppercase;
+			font-size: 14px;
+		}
+	}
+}
+
+#html5-watermark {
+	display: none !important;
+}

@@ -1,0 +1,112 @@
+
+.container-extend {
+    @include container-fixed;
+    @media (min-width: $screen-sm-min) {
+        width: $container-sm;
+    }
+    @media (min-width: $screen-md-min) {
+        width: $container-md;
+    }
+    @media (min-width: 1200px){
+        width: 1200px;
+    }
+    @media (min-width: 1622px) {
+        width: 1622px;
+    }
+}
+
+// Breadcrumb.
+.site-page-header {
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+    &.page-header-default:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        display: block;
+        z-index: -1;
+        opacity: 0.35;
+    }
+
+     .page-header-wrapper .page-title {
+        margin: 0;
+        line-height: 1.3 !important;
+
+        @media ( max-width: 991px ) {
+            font-size: 52px;
+        }
+
+        @media ( max-width: 677px ) {
+            font-size: 42px;
+        }
+     }
+
+
+
+    .page-header-container {
+
+        @include flex();
+        min-height: 360px;
+        padding: 100px 0;
+        max-width: 100%;
+
+        .breadcrumb-item {
+            display: inline-flex;
+            font-size: 14px;
+            text-transform: uppercase;
+
+            &:not(:last-child):after {
+                content: '\f111';
+                font-family: $awe;
+                display: inline-flex;
+                align-items: center;
+                font-size: 5px;
+                margin: 0 13px 0 15px;
+            }
+        }
+    }
+
+    .breadcrumb-content {
+        margin-top: 30px;
+    }
+
+    .page-header-content {
+        text-align: center;
+    }
+}
+
+.single-post {
+    .site-page-header {
+        background: #fff;
+    }
+
+    .topbar-default {
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .site-header--main {
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .ht-primary {
+        margin-top: 0;
+    }
+}
+
+
+.page {
+    .site-page-header {
+        margin-bottom: 70px;
+    }
+
+}

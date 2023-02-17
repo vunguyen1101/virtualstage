@@ -1,0 +1,174 @@
+
+@font-face {
+  font-family: '#{$font-travel}';
+  src:  url('#{$icomoon-font-path}/#{$font-travel}.eot?wul50u');
+  src:  url('#{$icomoon-font-path}/#{$font-travel}.eot?wul50u#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$font-travel}.ttf?wul50u') format('truetype'),
+    url('#{$icomoon-font-path}/#{$font-travel}.woff?wul50u') format('woff'),
+    url('#{$icomoon-font-path}/#{$font-travel}.svg?wul50u##{$font-travel}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-travelcations-"], [class*=" icon-travelcations-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$font-travel}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-travelcations-menu {
+  &:before {
+    content: $icon-travelcations-menu; 
+  }
+}
+.icon-travelcations-search {
+  &:before {
+    content: $icon-travelcations-search; 
+  }
+}
+.icon-travelcations-instagram {
+  &:before {
+    content: $icon-travelcations-instagram; 
+  }
+}
+.icon-travelcations-issue {
+  &:before {
+    content: $icon-travelcations-issue; 
+  }
+}
+.icon-travelcations-location {
+  &:before {
+    content: $icon-travelcations-location; 
+  }
+}
+.icon-travelcations-map {
+  &:before {
+    content: $icon-travelcations-map; 
+  }
+}
+.icon-travelcations-mouse {
+  &:before {
+    content: $icon-travelcations-mouse; 
+  }
+}
+.icon-travelcations-play {
+  &:before {
+    content: $icon-travelcations-play; 
+  }
+}
+.icon-travelcations-security {
+  &:before {
+    content: $icon-travelcations-security; 
+  }
+}
+.icon-travelcations-star {
+  &:before {
+    content: $icon-travelcations-star; 
+  }
+}
+.icon-travelcations-star-b {
+  &:before {
+    content: $icon-travelcations-star-b; 
+  }
+}
+.icon-travelcations-suitcase {
+  &:before {
+    content: $icon-travelcations-suitcase; 
+  }
+}
+.icon-travelcations-support {
+  &:before {
+    content: $icon-travelcations-support; 
+  }
+}
+.icon-travelcations-twitter {
+  &:before {
+    content: $icon-travelcations-twitter; 
+  }
+}
+.icon-travelcations-user {
+  &:before {
+    content: $icon-travelcations-user; 
+  }
+}
+.icon-travelcations-youtube {
+  &:before {
+    content: $icon-travelcations-youtube; 
+  }
+}
+.icon-travelcations-bookmark {
+  &:before {
+    content: $icon-travelcations-bookmark; 
+  }
+}
+.icon-travelcations-call {
+  &:before {
+    content: $icon-travelcations-call; 
+  }
+}
+.icon-travelcations-certificate {
+  &:before {
+    content: $icon-travelcations-certificate; 
+  }
+}
+.icon-travelcations-check {
+  &:before {
+    content: $icon-travelcations-check; 
+  }
+}
+.icon-travelcations-clock {
+  &:before {
+    content: $icon-travelcations-clock; 
+  }
+}
+.icon-travelcations-combine {
+  &:before {
+    content: $icon-travelcations-combine; 
+  }
+}
+.icon-travelcations-comment {
+  &:before {
+    content: $icon-travelcations-comment; 
+  }
+}
+.icon-travelcations-contrast {
+  &:before {
+    content: $icon-travelcations-contrast; 
+  }
+}
+.icon-travelcations-delete {
+  &:before {
+    content: $icon-travelcations-delete; 
+  }
+}
+.icon-travelcations-facebook {
+  &:before {
+    content: $icon-travelcations-facebook; 
+  }
+}
+.icon-travelcations-flag {
+  &:before {
+    content: $icon-travelcations-flag; 
+  }
+}
+.icon-travelcations-global {
+  &:before {
+    content: $icon-travelcations-global; 
+  }
+}
+.icon-travelcations-info {
+  &:before {
+    content: $icon-travelcations-info; 
+  }
+}
+

@@ -1,0 +1,70 @@
+#page404-container {
+    background-image: url(assets/images/404.png);
+    background:linear-gradient(0deg, rgba( 0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/images/404.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .header-default .site-header--main {
+        position: static;
+    }
+
+    .site-footer {
+        background-color: transparent;
+
+        .site-info {
+            background-color: transparent;
+            border-top: none;
+        }
+    }
+
+}
+
+.admin-bar #page404-container {
+    height: calc( 100vh - 32px );
+}
+
+
+.page404 {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+
+    .title-404 {
+        color: #fff;
+        font-size: 20vh;
+        text-align: center;
+        line-height: 1;
+        margin: 0 0 20px;
+    }
+
+    .notice {
+        font-size: 20px;
+        color: #fff;
+        line-height: 1.6;
+
+        .try {
+            display: block;
+        }
+    }
+}
+
+
+.btn-back-home {
+    border: none;
+    min-width: 192px;
+    padding: 5px 15px;
+    height: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    @include flex( 'inline-flex' );
+    margin-top: 50px;
+}

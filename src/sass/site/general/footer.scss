@@ -1,0 +1,107 @@
+.site-footer {
+    width: 100%;
+    background-color: #1a1a1a;
+    margin-top: 100px;
+}
+
+.blog,
+.single,
+.archive,
+.search {
+    .site-footer {
+        margin-top: 100px;
+    }
+}
+
+
+/* Site Info */
+.site-info {
+    padding: 1.25em 0;
+    background-color: #1a1a1a;
+    border-top: 1px solid #535353;
+}
+
+.site-info-wrapper {
+
+    @include media(desktop) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.site-copyright {
+
+    color: #9e9e9e;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    @include media(desktop) {
+        margin-bottom: 0;
+    }
+}
+
+
+
+.widget-footer {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 90px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 50%;
+    box-shadow: 0px 0px 35px 0px rgba(153, 153, 153, 0.25);
+    z-index: 99999;
+    transform: translateY( 100px );
+    visibility: hidden;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    font-size: 24px;
+
+    &:hover {
+        transition: all 0.3s;
+        opacity: 1;
+        transform: translateY( -10px );
+ 
+    }
+
+    &.btn-show {
+        transition: all 0.3s;
+        visibility: visible;
+        transform: translateY( 0 );
+    }
+}
+
+footer {
+    clear: both;
+}
+
+.boostify-copyright-info {
+    color: #fff;
+}
+
+
+// For Boostify Header Footer Buider
+.boostify-site-footer {
+    .gallery-bottom {
+        .gallery {
+            margin: 0 -5px;
+        }
+
+        .gallery-item {
+            padding: 5px;
+        }
+    }
+}

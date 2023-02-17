@@ -1,0 +1,78 @@
+.widget-guid {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 445px;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 58px 50px 142px;
+  transform: translateX(100%);
+  transition: all 0.3s;
+  z-index: 99999999;
+}
+@media (max-width: 480px) {
+  .widget-guid {
+    width: 300px;
+    padding: 58px 20px 100px;
+  }
+}
+.widget-guid::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+}
+.widget-guid::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 50px;
+}
+.widget-guid::-webkit-scrollbar-thumb:hover {
+  background: #fc1550;
+}
+.widget-guid .widget-description {
+  padding: 0 15px;
+}
+.widget-guid .widget-description img {
+  display: block;
+  margin: 0 auto;
+}
+.widget-guid .widget-description .widget-description-text {
+  color: #9e9e9e;
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+  font-size: 12px;
+  display: block;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.widget-guid .widget_media_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px -5px 0;
+}
+.widget-guid .widget_media_gallery .gallery-item {
+  padding: 5px;
+  width: 25%;
+  margin-bottom: 0;
+}
+.widget-guid .widget {
+  margin: 0;
+}
+.widget-guid .widget:not(:last-child):after {
+  content: url("assets/images/driver.png");
+  margin: 40px auto;
+  display: block;
+  text-align: center;
+}
+.widget-guid .widget-guid-wrapper {
+  list-style: none;
+}
+
+.show-widget-gui .widget-guid {
+  transform: translateX(0);
+}
+.show-widget-gui #overlayer {
+  background-color: #000;
+  opacity: 0.25;
+}/*# sourceMappingURL=widget-gui.css.map */
